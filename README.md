@@ -1,5 +1,6 @@
 # Application
-React-Native bare 앱 시작하기
+M1 Macbook에서 React-Native bare 앱 시작하기
+last updated 2022/04/14
 
 ## Starting
 ### 1. Install Xcode & Android Studio
