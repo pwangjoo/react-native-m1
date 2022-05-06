@@ -22,7 +22,7 @@ __Android Studio ARM__
 ```
 Your final `.zshrc`:
 ```zshrc
-export ANDROID_HOME="/Users/$USER/Library/Android/sdk" // $USER must be specified
+export ANDROID_HOME="/Users/$USER/Library/Android/sdk" #$USER must be specified
 export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/tools/bin
