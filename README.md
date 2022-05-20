@@ -15,7 +15,7 @@ __Android Studio ARM__
 ### 2. Install dependencies
 ```zsh
 % brew tap AdoptOpenJDK/openjdk
-% brew install --cask adoptopenjdk11 #java 11 or higher
+% brew install --cask adoptopenjdk14 #java 14 or higher
 % brew install watchman cocoapods
 % sudo arch -x86_64 gem install ffi #need x86_64 version
 % npm install -g @react-native-community/cli #community version recommanded
@@ -36,7 +36,6 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 __iOS__
 ```zsh
 % cd ios && pod update
-% cd ../ && npx pod-install
 ```
 
 __Android__
