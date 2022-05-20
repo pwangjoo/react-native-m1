@@ -1,6 +1,6 @@
 # Application
 M1 Macbook에서 React-Native bare 앱 시작하기
-last updated 2022/05/06
+last updated 2022/05/20
 
 ## Starting
 ### 1. Install Xcode & Android Studio
@@ -19,7 +19,8 @@ __Android Studio ARM__
 % brew install --cask adoptopenjdk14 #java 14 or higher
 % brew install watchman cocoapods
 % sudo arch -x86_64 gem install ffi #need x86_64 version
-% npm install -g @react-native-community/cli #community version recommanded
+
+% npm install -g @react-native-community/cli #(or react-native-cli)
 ```
 Your final `.zshrc`:
 ```zshrc
@@ -31,6 +32,7 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 ```
 ### 3. Init Project
 ```zsh
+# you can only use this command with community version
 % npx react-native init MyApp --template react-native-template-typescript
 ```
 
