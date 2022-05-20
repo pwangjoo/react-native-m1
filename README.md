@@ -7,6 +7,7 @@ last updated 2022/05/06
 __Xcode__
 1. Accounts > add Apple Account
 2. Components > install iOS (recommend latest)
+3. Locations > Command Line Tools > Xcode 00.0 (select latest)
 
 __Android Studio ARM__
 1. More Actions > AVD Manager > Create Virtual Device
